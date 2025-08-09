@@ -1,0 +1,14 @@
+/Users/mikolaj/RiderProjects/EmploRecruitmentMS/EmploRecruitment/bin/Debug/net9.0/EmploRecruitment
+/Users/mikolaj/RiderProjects/EmploRecruitmentMS/EmploRecruitment/bin/Debug/net9.0/EmploRecruitment.deps.json
+/Users/mikolaj/RiderProjects/EmploRecruitmentMS/EmploRecruitment/bin/Debug/net9.0/EmploRecruitment.runtimeconfig.json
+/Users/mikolaj/RiderProjects/EmploRecruitmentMS/EmploRecruitment/bin/Debug/net9.0/EmploRecruitment.dll
+/Users/mikolaj/RiderProjects/EmploRecruitmentMS/EmploRecruitment/bin/Debug/net9.0/EmploRecruitment.pdb
+/Users/mikolaj/RiderProjects/EmploRecruitmentMS/EmploRecruitment/obj/Debug/net9.0/EmploRecruitment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mikolaj/RiderProjects/EmploRecruitmentMS/EmploRecruitment/obj/Debug/net9.0/EmploRecruitment.AssemblyInfoInputs.cache
+/Users/mikolaj/RiderProjects/EmploRecruitmentMS/EmploRecruitment/obj/Debug/net9.0/EmploRecruitment.AssemblyInfo.cs
+/Users/mikolaj/RiderProjects/EmploRecruitmentMS/EmploRecruitment/obj/Debug/net9.0/EmploRecruitment.csproj.CoreCompileInputs.cache
+/Users/mikolaj/RiderProjects/EmploRecruitmentMS/EmploRecruitment/obj/Debug/net9.0/EmploRecruitment.dll
+/Users/mikolaj/RiderProjects/EmploRecruitmentMS/EmploRecruitment/obj/Debug/net9.0/refint/EmploRecruitment.dll
+/Users/mikolaj/RiderProjects/EmploRecruitmentMS/EmploRecruitment/obj/Debug/net9.0/EmploRecruitment.pdb
+/Users/mikolaj/RiderProjects/EmploRecruitmentMS/EmploRecruitment/obj/Debug/net9.0/EmploRecruitment.genruntimeconfig.cache
+/Users/mikolaj/RiderProjects/EmploRecruitmentMS/EmploRecruitment/obj/Debug/net9.0/ref/EmploRecruitment.dll

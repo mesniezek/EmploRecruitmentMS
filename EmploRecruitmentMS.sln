@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmploRecruitment", "EmploRecruitment\EmploRecruitment.csproj", "{8A4ACAB6-18FB-4348-86C4-067085E80FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmploRecruitmentTests", "EmploRecruitmentTests\EmploRecruitmentTests.csproj", "{C24006BE-D208-4874-AEFC-B4B7FF1CB388}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A4ACAB6-18FB-4348-86C4-067085E80FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4ACAB6-18FB-4348-86C4-067085E80FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4ACAB6-18FB-4348-86C4-067085E80FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4ACAB6-18FB-4348-86C4-067085E80FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24006BE-D208-4874-AEFC-B4B7FF1CB388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24006BE-D208-4874-AEFC-B4B7FF1CB388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24006BE-D208-4874-AEFC-B4B7FF1CB388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24006BE-D208-4874-AEFC-B4B7FF1CB388}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
