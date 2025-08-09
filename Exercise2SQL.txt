@@ -1,0 +1,29 @@
+-- 2A
+SELECT DISTINCT e.* 
+FROM Employee e 
+JOIN Team t ON t.id = e.teamId 
+JOIN Vacation v ON v.employeeId = e.id
+WHERE t.`name` = ".NET" AND 
+( YEAR(v.dateSince) = 2019 OR 
+YEAR(v.dateUntil) = 2019 )
+
+-- 2B
+SELECT e.id, e.`name`, SUM(DATEDIFF(v.dateSince, v.dateUntil) + 1) AS UsedVacationDays
+FROM Employee e
+JOIN Team t ON t.id = e.teamId
+JOIN Vacation v ON v.employeeId = e.id
+WHERE 
+    YEAR(v.dateSince) = YEAR(CURDATE())
+    AND YEAR(v.dateUntil) = YEAR(CURDATE())
+    AND v.dateUntil < CURDATE()
+GROUP BY e.id, e.`name`
+
+
+-- 2C
+SELECT t.id, t.`name`
+FROM Team t
+LEFT JOIN Employee e ON e.teamId = t.id
+LEFT JOIN Vacation v ON v.employeeId = e.id 
+    AND (YEAR(v.dateSince) = 2019 OR YEAR(v.dateUntil) = 2019)
+GROUP BY t.id, t.name
+HAVING COUNT(v.id) = 0;
