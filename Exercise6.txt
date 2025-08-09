@@ -1,0 +1,10 @@
+6. Zakładając, że parametry metody z zadania 3 pobieramy bezpośrednio z bazy danych. Czy
+znasz jakieś sposoby na optymalizację liczby zapytań SQL w tego typu przypadkach? Wymień
+i opisz krótko każdy z nich.
+
+Moim zdaniem najważniejsze przy optymalizacji liczby zapytań SQL jest :
+- Grupowanie (partiowanie) zapytań, w celu redukcji krótkich, lecz licznych zapytań - przy braku takiej otpymalizacji dla dużej 
+ilości danych zasoby będą niepotrzebnie pochłaniane. 
+- Równie ważne jest łączenie ze sobą danych funkcją JOIN, ponownie w celu ominięcia tworzenia wielu małych zapytań.
+- Jeżeli baza jest rozbudowana, a zapytania rozległe warto również rozważyć użycie tzw. projekcji - wybieranie jedynie
+kolumn, które rzeczywiście są potrzebne w danym zapytaniu (czy też zadaniu).
